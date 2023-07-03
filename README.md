@@ -1,36 +1,46 @@
-# Folder Purpose
-This folder is primarily used to hold documentation for Metasploit's various modules, as well as the developers guide
-at `developers_guide.pdf`.
+[![GitHub stars](https://img.shields.io/github/stars/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/issues)
+[![GitHub watchers](https://img.shields.io/github/watchers/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/watchers)
+[![Python](https://img.shields.io/badge/language-Python%203-blue.svg)](https://www.python.org)
+[![Bash](https://img.shields.io/badge/language-Bash-blue.svg)](https://www.gnu.org/software/bash/)
+[![WTFPL](https://img.shields.io/badge/license-WTFPL-red.svg)](http://www.wtfpl.net/)
+[![BlackHole Security](https://img.shields.io/badge/team-BlackHole%20Security-ocean.svg)](https://github.com/BlackHoleSecurity)
+[![Gameye98/DedSecTL](https://img.shields.io/badge/author-Gameye98/DedSecTL-red.svg)](https://github.com/Gameye98)
 
-# Metasploit Developer Documentation
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/Gameye98)  
 
-Metasploit is actively supported by a community of hundreds of
-contributors and thousands of users world-wide. As a result, the
-accompanying documentation moves quite quickly.
+[![BlackHole Security](core/gitbhs.svg)](https://github.com/BlackHoleSecurity)
 
-The best source of documentation on Metasploit development is
-https://docs.metasploit.com/. There are many
-treasures there, such as:
+# Lazymux
+Lazymux is a tool that helps you to install and use multiple penetration testing and hacking tools on Android system with ease. It allows users to easily install and use a variety of popular tools such as Nmap, SQLMap, and Metasploit. The tool is simple to use, as you only need to type a command to install and use any of the tools. Lazymux is an open-source project and can be a very helpful tool for penetration testing and ethical hacking tasks.
 
-  * [Evading Antivirus](https://docs.metasploit.com/docs/using-metasploit/intermediate/evading-anti-virus.html)
-  * [How Payloads Work](https://docs.metasploit.com/docs/using-metasploit/basics/how-payloads-work.html)
-  * [How to use Datastore Options](https://docs.metasploit.com/docs/development/developing-modules/module-metadata/how-to-use-datastore-options.html)
-  * [How to write browser exploits with BES](https://docs.metasploit.com/docs/development/developing-modules/libraries/http/how-to-write-a-browser-exploit-using-browserexploitserver.html)
-  * [How to write a bruteforcer](https://docs.metasploit.com/docs/development/developing-modules/libraries/how-to-use-msf-auxiliary-authbrute-to-write-a-bruteforcer.html)
+Made with ❤️
 
-...and many, many more.
+## Feature
+- **Tool Installation**  
+Install Single Tool  
+`lzmx > set_install 1`  
+Install Multi Tool  
+`lzmx > set_install 1 2 3 4`  
+Install All Tool  
+`lzmx > set_install @`  
+- **Default Dir Install**
+On `lazymux.conf` replace symbol ~ with directory you want  
+Example: lazymux.conf  
+`HOME = /sdcard`
 
-## API Documentation
 
-If you are looking for API documentation, you may run `rake yard` to
-generate a navigable view of the comment documentation used throughout
-Metasploit, or visit https://rapid7.github.io/metasploit-framework/api
-for a recently generated online version.
+## Screenshot
+<img src="core/lazymux_4.png">
 
-## Contributing
+### Requirements
+• Python 3.x
 
-If you would like to contribute to the documentation effort, please see
-http://yardoc.org/ for details on how to write YARD-compatible comments,
-and send us a [Pull Request](https://github.com/rapid7/metasploit-framework/pulls)
-with your contribution.
-
+#### Installation and Using Lazymux
+```bash
+apt install python git
+git clone https://github.com/Gameye98/Lazymux
+cd Lazymux
+python lazymux.py
+```
